@@ -76,14 +76,14 @@ public class StopFunc implements ActionListener{
    }
    else {
     started=false;
-    startButton.setText("START");
+    startButton.setText("STARTS");
     stop();
    }
    
   }
   if(e.getSource()==resetButton) {
    started=false;
-   startButton.setText("START");
+   startButton.setText("STARTS");
    reset();
   }
   
